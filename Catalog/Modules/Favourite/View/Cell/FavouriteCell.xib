@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FavouriteCell" id="gTV-IL-0wX" customClass="FavouriteCell" customModule="Catalog" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="350" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sLz-gW-GUh">
+                        <rect key="frame" x="0.0" y="0.0" width="350" height="200"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xc9-Iv-HDW">
+                        <rect key="frame" x="0.0" y="130" width="350" height="70"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng9-JF-2ka">
+                                <rect key="frame" x="8" y="2" width="334" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jCz-pR-psu">
+                                <rect key="frame" x="8" y="24.5" width="334" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cem-Dh-Z4t">
+                                <rect key="frame" x="8" y="44.5" width="334" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="0.70446868289999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ng9-JF-2ka" firstAttribute="leading" secondItem="xc9-Iv-HDW" secondAttribute="leading" constant="8" id="JuE-8E-EkD"/>
+                            <constraint firstItem="jCz-pR-psu" firstAttribute="leading" secondItem="xc9-Iv-HDW" secondAttribute="leading" constant="8" id="LtN-Rv-cxP"/>
+                            <constraint firstAttribute="trailing" secondItem="cem-Dh-Z4t" secondAttribute="trailing" constant="8" id="QcG-NH-bEb"/>
+                            <constraint firstItem="Ng9-JF-2ka" firstAttribute="top" secondItem="xc9-Iv-HDW" secondAttribute="top" constant="2" id="VhB-eG-v0b"/>
+                            <constraint firstItem="cem-Dh-Z4t" firstAttribute="top" secondItem="jCz-pR-psu" secondAttribute="bottom" constant="8" id="ZGG-q8-bXB"/>
+                            <constraint firstItem="cem-Dh-Z4t" firstAttribute="leading" secondItem="xc9-Iv-HDW" secondAttribute="leading" constant="8" id="cxP-Fw-Wqo"/>
+                            <constraint firstItem="jCz-pR-psu" firstAttribute="top" secondItem="Ng9-JF-2ka" secondAttribute="bottom" constant="8" id="ixt-h9-Cg6"/>
+                            <constraint firstAttribute="height" constant="70" id="iyy-if-Yjt"/>
+                            <constraint firstAttribute="trailing" secondItem="Ng9-JF-2ka" secondAttribute="trailing" constant="8" id="mmc-Ik-Cdy"/>
+                            <constraint firstAttribute="trailing" secondItem="jCz-pR-psu" secondAttribute="trailing" constant="8" id="oIn-ek-hKH"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="sLz-gW-GUh" secondAttribute="bottom" id="BRg-p4-BS5"/>
+                <constraint firstAttribute="bottom" secondItem="xc9-Iv-HDW" secondAttribute="bottom" id="DJC-DA-eYh"/>
+                <constraint firstAttribute="trailing" secondItem="xc9-Iv-HDW" secondAttribute="trailing" id="N9U-Om-MW9"/>
+                <constraint firstAttribute="trailing" secondItem="sLz-gW-GUh" secondAttribute="trailing" id="R6I-ff-yz5"/>
+                <constraint firstItem="sLz-gW-GUh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Rwm-ZA-Ue7"/>
+                <constraint firstItem="xc9-Iv-HDW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hFm-mZ-LiE"/>
+                <constraint firstItem="sLz-gW-GUh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="mLu-Se-g87"/>
+            </constraints>
+            <connections>
+                <outlet property="containerDetail" destination="xc9-Iv-HDW" id="LYA-QZ-oQX"/>
+                <outlet property="imgBackground" destination="sLz-gW-GUh" id="Kea-K2-qJ3"/>
+                <outlet property="labelRating" destination="cem-Dh-Z4t" id="mNf-l1-pzJ"/>
+                <outlet property="labelReleased" destination="jCz-pR-psu" id="kNR-W5-mhK"/>
+                <outlet property="labelTitle" destination="Ng9-JF-2ka" id="2uC-Vk-YbZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="140.625"/>
+        </collectionViewCell>
+    </objects>
+</document>
