@@ -90,6 +90,8 @@
 		258F9E23296537C300F95D29 /* GameMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
 		258F9E252965393F00F95D29 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 		25E447E028EA018900599CA3 /* Imagine-dragon-enemy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imagine-dragon-enemy.mp3"; sourceTree = "<group>"; };
+		25EB4A12296899ED00B31F01 /* Catalog.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Catalog.xctestplan; sourceTree = "<group>"; };
+		25EB4A1329689A7D00B31F01 /* CatalogTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CatalogTestPlan.xctestplan; sourceTree = "<group>"; };
 		25F1FBBB28E82CF800BDC993 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F1FBBE28E82CF800BDC993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25F1FBC728E82CF900BDC993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -364,6 +366,7 @@
 		25F1FBB228E82CF800BDC993 = {
 			isa = PBXGroup;
 			children = (
+				25EB4A1329689A7D00B31F01 /* CatalogTestPlan.xctestplan */,
 				2534E83228F56CD1006978C2 /* .swiftlint.yml */,
 				25F1FBBD28E82CF800BDC993 /* Catalog */,
 				25F1FBBC28E82CF800BDC993 /* Products */,
@@ -391,6 +394,7 @@
 				25F1FBBE28E82CF800BDC993 /* AppDelegate.swift */,
 				25F1FBC728E82CF900BDC993 /* Assets.xcassets */,
 				25F1FBCC28E82CF900BDC993 /* Info.plist */,
+				25EB4A12296899ED00B31F01 /* Catalog.xctestplan */,
 				254F3BE428E9F32A00DD5994 /* SupportingFiles */,
 			);
 			path = Catalog;
