@@ -367,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				25EB4A1329689A7D00B31F01 /* CatalogTestPlan.xctestplan */,
+				25EB4A12296899ED00B31F01 /* Catalog.xctestplan */,
 				2534E83228F56CD1006978C2 /* .swiftlint.yml */,
 				25F1FBBD28E82CF800BDC993 /* Catalog */,
 				25F1FBBC28E82CF800BDC993 /* Products */,
@@ -394,7 +395,6 @@
 				25F1FBBE28E82CF800BDC993 /* AppDelegate.swift */,
 				25F1FBC728E82CF900BDC993 /* Assets.xcassets */,
 				25F1FBCC28E82CF900BDC993 /* Info.plist */,
-				25EB4A12296899ED00B31F01 /* Catalog.xctestplan */,
 				254F3BE428E9F32A00DD5994 /* SupportingFiles */,
 			);
 			path = Catalog;
