@@ -43,7 +43,7 @@ class MainTabController: UITabBarController {
     self.tabBar.layer.shadowColor = UIColor.white.cgColor
     self.tabBar.layer.shadowOffset = CGSize(width: 2,height: 5)
     self.tabBar.layer.shadowRadius = 20
-    self.tabBar.layer.shadowOpacity = 1
+    self.tabBar.layer.shadowOpacity = 0.3
     
     UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 16)], for: .normal)
   
