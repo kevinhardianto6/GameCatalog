@@ -1,5 +1,16 @@
 language: swift
 osx_image: xcode13.3 
-xcode_project: Catalog.xcodeproj 
+xcode_project: Catalog.xcworkspace 
 xcode_scheme: Catalog
 xcode_destination: platform=iOS Simulator,OS=14.0,name=iPhone 11 Pro
+
+before_install:
+  - gem install cocoapods -v '1.9.3'
+
+install:
+  - pod install --repo-update
+
+script:
+  - set -o pipefail
+  - xcodebuild -workspace Catalog.xcworkspace -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO test | xcpretty
+  - xcodebuild -workspace Catalog.xcworkspace -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=NO test | xcpretty
