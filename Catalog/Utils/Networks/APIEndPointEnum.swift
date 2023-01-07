@@ -12,7 +12,7 @@ struct API {
   static let baseKey: String = {
     if let path = Bundle.main.path(forResource: "Info", ofType: "plist") {
       let dictionary = NSDictionary(contentsOfFile: path)
-      return dictionary!["BASE_KEY"] as! String
+      return dictionary?["BASE_KEY"] as? String ?? ""
     } else {
       return ""
     }
