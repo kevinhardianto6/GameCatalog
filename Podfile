@@ -1,8 +1,8 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+# platform :ios, '9.0'
+
 
 target 'Catalog' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   workspace 'Catalog'
 
@@ -13,12 +13,4 @@ target 'Catalog' do
   pod 'Kingfisher'
   pod 'SwiftLint'
 
-end
-
-target 'Game' do
-    project '../Modules/Game/Game'
-end
-
-target 'Core' do
-    project '../Modules/Core/Core'
 end

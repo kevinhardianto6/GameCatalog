@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0156C20A5609EFCE7AF4F0E3 /* Pods_Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D21CDD12FFF6FC6B5EEA5BE /* Pods_Catalog.framework */; };
 		252610BC2962BF9F0057C02E /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252610BB2962BF9F0057C02E /* Injection.swift */; };
 		252610C329630D170057C02E /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252610C229630D170057C02E /* GameRepository.swift */; };
 		252610C52963109A0057C02E /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252610C42963109A0057C02E /* HomeInteractor.swift */; };
@@ -30,8 +29,6 @@
 		2534E84128F699C8006978C2 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534E84028F699C8006978C2 /* ProfileViewModel.swift */; };
 		2534E84428F69DB9006978C2 /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2534E84328F69DB9006978C2 /* EditProfileViewModel.swift */; };
 		254A454E29655A9700552575 /* GameDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254A454D29655A9700552575 /* GameDetailModel.swift */; };
-		25685999296AB37C006463C4 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25685997296AB36F006463C4 /* Core.framework */; };
-		2568599A296AB37C006463C4 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25685997296AB36F006463C4 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		258F9E192964EC0900F95D29 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F9E182964EC0900F95D29 /* HomeRouter.swift */; };
 		258F9E1B2964FC4A00F95D29 /* FavouriteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F9E1A2964FC4A00F95D29 /* FavouriteInteractor.swift */; };
 		258F9E1E2965000300F95D29 /* FavouriteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F9E1D2965000300F95D29 /* FavouriteRouter.swift */; };
@@ -39,8 +36,6 @@
 		258F9E24296537C300F95D29 /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F9E23296537C300F95D29 /* GameMapper.swift */; };
 		258F9E262965393F00F95D29 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 258F9E252965393F00F95D29 /* GameModel.swift */; };
 		25E447E128EA018900599CA3 /* Imagine-dragon-enemy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25E447E028EA018900599CA3 /* Imagine-dragon-enemy.mp3 */; };
-		25F099AF296AB11400583052 /* Game.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F099AE296AB0E400583052 /* Game.framework */; };
-		25F099B0296AB11400583052 /* Game.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25F099AE296AB0E400583052 /* Game.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		25F1FBBF28E82CF800BDC993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1FBBE28E82CF800BDC993 /* AppDelegate.swift */; };
 		25F1FBC828E82CF900BDC993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F1FBC728E82CF900BDC993 /* Assets.xcassets */; };
 		25F1FBE128E831C500BDC993 /* APIEndPointEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1FBE028E831C500BDC993 /* APIEndPointEnum.swift */; };
@@ -62,41 +57,11 @@
 		25F1FC0D28E85AA400BDC993 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1FC0C28E85AA400BDC993 /* GameService.swift */; };
 		25F1FC1728E9CBA600BDC993 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F1FC1528E9CBA600BDC993 /* LoadingView.xib */; };
 		25F1FC1828E9CBA600BDC993 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F1FC1628E9CBA600BDC993 /* LoadingView.swift */; };
+		2B7406AC59D20335CCBE7128 /* Pods_Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8627D84ED4CBFB00CB761E8 /* Pods_Catalog.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		25685996296AB36F006463C4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25685992296AB36F006463C4 /* Core.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25685985296AB330006463C4;
-			remoteInfo = Core;
-		};
-		25F099AD296AB0E400583052 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 25F099A9296AB0E400583052 /* Game.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25F09997296AB07F00583052;
-			remoteInfo = Game;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		25F099B1296AB11400583052 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				25F099B0296AB11400583052 /* Game.framework in Embed Frameworks */,
-				2568599A296AB37C006463C4 /* Core.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		1E0D3C0E73F3CC28489427F8 /* Pods-Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catalog.debug.xcconfig"; path = "Target Support Files/Pods-Catalog/Pods-Catalog.debug.xcconfig"; sourceTree = "<group>"; };
 		252610BB2962BF9F0057C02E /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		252610C229630D170057C02E /* GameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRepository.swift; sourceTree = "<group>"; };
 		252610C42963109A0057C02E /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -121,7 +86,6 @@
 		254A454D29655A9700552575 /* GameDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailModel.swift; sourceTree = "<group>"; };
 		25685979296AB2C2006463C4 /* Game.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Game.docc; sourceTree = "<group>"; };
 		2568597A296AB2C2006463C4 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
-		25685992296AB36F006463C4 /* Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Core.xcodeproj; path = ../Modules/Core/Core.xcodeproj; sourceTree = "<group>"; };
 		258F9E182964EC0900F95D29 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		258F9E1A2964FC4A00F95D29 /* FavouriteInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteInteractor.swift; sourceTree = "<group>"; };
 		258F9E1D2965000300F95D29 /* FavouriteRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteRouter.swift; sourceTree = "<group>"; };
@@ -131,7 +95,6 @@
 		25E447E028EA018900599CA3 /* Imagine-dragon-enemy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imagine-dragon-enemy.mp3"; sourceTree = "<group>"; };
 		25EB4A12296899ED00B31F01 /* Catalog.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Catalog.xctestplan; sourceTree = "<group>"; };
 		25EB4A1329689A7D00B31F01 /* CatalogTestPlan.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CatalogTestPlan.xctestplan; sourceTree = "<group>"; };
-		25F099A9296AB0E400583052 /* Game.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Game.xcodeproj; path = ../Modules/Game/Game.xcodeproj; sourceTree = "<group>"; };
 		25F1FBBB28E82CF800BDC993 /* Catalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Catalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F1FBBE28E82CF800BDC993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25F1FBC728E82CF900BDC993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -155,9 +118,8 @@
 		25F1FC0C28E85AA400BDC993 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		25F1FC1528E9CBA600BDC993 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		25F1FC1628E9CBA600BDC993 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		4D21CDD12FFF6FC6B5EEA5BE /* Pods_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		83CE276CA6DF4B27AF37160F /* Pods-Catalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catalog.release.xcconfig"; path = "Target Support Files/Pods-Catalog/Pods-Catalog.release.xcconfig"; sourceTree = "<group>"; };
-		DEE940E41F0C4D4EC87B7A5C /* Pods-Catalog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catalog.debug.xcconfig"; path = "Target Support Files/Pods-Catalog/Pods-Catalog.debug.xcconfig"; sourceTree = "<group>"; };
+		A8627D84ED4CBFB00CB761E8 /* Pods_Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E471E2CE2523B0467990F1C1 /* Pods-Catalog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Catalog.release.xcconfig"; path = "Target Support Files/Pods-Catalog/Pods-Catalog.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25F099AF296AB11400583052 /* Game.framework in Frameworks */,
-				25685999296AB37C006463C4 /* Core.framework in Frameworks */,
-				0156C20A5609EFCE7AF4F0E3 /* Pods_Catalog.framework in Frameworks */,
+				2B7406AC59D20335CCBE7128 /* Pods_Catalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,14 +351,6 @@
 			path = ../Modules/Game/Game;
 			sourceTree = "<group>";
 		};
-		25685993296AB36F006463C4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				25685997296AB36F006463C4 /* Core.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		258F9E1C2964FFF100F95D29 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,19 +375,9 @@
 			path = Mapper;
 			sourceTree = "<group>";
 		};
-		25F099AA296AB0E400583052 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				25F099AE296AB0E400583052 /* Game.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		25F1FBB228E82CF800BDC993 = {
 			isa = PBXGroup;
 			children = (
-				25F099A9296AB0E400583052 /* Game.xcodeproj */,
-				25685992296AB36F006463C4 /* Core.xcodeproj */,
 				25EB4A1329689A7D00B31F01 /* CatalogTestPlan.xctestplan */,
 				25EB4A12296899ED00B31F01 /* Catalog.xctestplan */,
 				2534E83228F56CD1006978C2 /* .swiftlint.yml */,
@@ -611,8 +553,8 @@
 		3CB2D72CAF2A5A5DB4D3FDCD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DEE940E41F0C4D4EC87B7A5C /* Pods-Catalog.debug.xcconfig */,
-				83CE276CA6DF4B27AF37160F /* Pods-Catalog.release.xcconfig */,
+				1E0D3C0E73F3CC28489427F8 /* Pods-Catalog.debug.xcconfig */,
+				E471E2CE2523B0467990F1C1 /* Pods-Catalog.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -621,7 +563,7 @@
 			isa = PBXGroup;
 			children = (
 				25685978296AB2C2006463C4 /* Game */,
-				4D21CDD12FFF6FC6B5EEA5BE /* Pods_Catalog.framework */,
+				A8627D84ED4CBFB00CB761E8 /* Pods_Catalog.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -633,13 +575,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F1FBCF28E82CF900BDC993 /* Build configuration list for PBXNativeTarget "Catalog" */;
 			buildPhases = (
-				837869A3D6361C517616D061 /* [CP] Check Pods Manifest.lock */,
+				1456DA45C05E3C908EA76122 /* [CP] Check Pods Manifest.lock */,
 				25F1FBB728E82CF800BDC993 /* Sources */,
 				25F1FBB828E82CF800BDC993 /* Frameworks */,
 				25F1FBB928E82CF800BDC993 /* Resources */,
-				E96110F1AC4DDA72DB07C1D0 /* [CP] Embed Pods Frameworks */,
 				252610CD29634D0B0057C02E /* ShellScript */,
-				25F099B1296AB11400583052 /* Embed Frameworks */,
+				847183A11D138816B717EB69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -676,39 +617,12 @@
 			mainGroup = 25F1FBB228E82CF800BDC993;
 			productRefGroup = 25F1FBBC28E82CF800BDC993 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 25685993296AB36F006463C4 /* Products */;
-					ProjectRef = 25685992296AB36F006463C4 /* Core.xcodeproj */;
-				},
-				{
-					ProductGroup = 25F099AA296AB0E400583052 /* Products */;
-					ProjectRef = 25F099A9296AB0E400583052 /* Game.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				25F1FBBA28E82CF800BDC993 /* Catalog */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		25685997296AB36F006463C4 /* Core.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Core.framework;
-			remoteRef = 25685996296AB36F006463C4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		25F099AE296AB0E400583052 /* Game.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Game.framework;
-			remoteRef = 25F099AD296AB0E400583052 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		25F1FBB928E82CF800BDC993 /* Resources */ = {
@@ -733,24 +647,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		252610CD29634D0B0057C02E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then \n    swiftlint \nelse \n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\" \nfi\n";
-		};
-		837869A3D6361C517616D061 /* [CP] Check Pods Manifest.lock */ = {
+		1456DA45C05E3C908EA76122 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -772,7 +669,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E96110F1AC4DDA72DB07C1D0 /* [CP] Embed Pods Frameworks */ = {
+		252610CD29634D0B0057C02E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif which swiftlint >/dev/null; then \n    swiftlint \nelse \n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\" \nfi\n";
+		};
+		847183A11D138816B717EB69 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -956,7 +870,7 @@
 		};
 		25F1FBD028E82CF900BDC993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEE940E41F0C4D4EC87B7A5C /* Pods-Catalog.debug.xcconfig */;
+			baseConfigurationReference = 1E0D3C0E73F3CC28489427F8 /* Pods-Catalog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -984,7 +898,7 @@
 		};
 		25F1FBD128E82CF900BDC993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83CE276CA6DF4B27AF37160F /* Pods-Catalog.release.xcconfig */;
+			baseConfigurationReference = E471E2CE2523B0467990F1C1 /* Pods-Catalog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
