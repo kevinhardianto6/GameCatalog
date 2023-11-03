@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Core (1.2.5)
+  - RxCocoa (6.6.0):
+    - RxRelay (= 6.6.0)
+    - RxSwift (= 6.6.0)
+  - RxRelay (6.6.0):
+    - RxSwift (= 6.6.0)
+  - RxSwift (6.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Core (from `https://github.com/kevinhardianto6/Core.git`, tag `1.2.6`)
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Core:
+    :git: https://github.com/kevinhardianto6/Core.git
+    :tag: 1.2.6
+
+CHECKOUT OPTIONS:
+  Core:
+    :git: https://github.com/kevinhardianto6/Core.git
+    :tag: 1.2.6
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Core: a1dfcf66d4e74b70ce2ab70466c641cf6a7628ce
+  RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
+  RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
+
+PODFILE CHECKSUM: 9d70067aa755cda948a1c2a6c6a09c946652b5c1
+
+COCOAPODS: 1.13.0

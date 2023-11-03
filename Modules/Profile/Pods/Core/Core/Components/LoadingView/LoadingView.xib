@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoadingView" customModule="Core" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="PMl-08-ULU"/>
+                <outlet property="indicator" destination="ra8-4g-3os" id="TDC-GL-W1a"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3K-Mc-BAX">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ra8-4g-3os">
+                            <rect key="frame" x="171.66666666666666" y="401" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="JT5-8p-aao"/>
+                                <constraint firstAttribute="width" constant="50" id="SQF-vQ-fl1"/>
+                            </constraints>
+                            <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </activityIndicatorView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ra8-4g-3os" firstAttribute="centerY" secondItem="q3K-Mc-BAX" secondAttribute="centerY" id="618-b9-fqu"/>
+                        <constraint firstItem="ra8-4g-3os" firstAttribute="centerX" secondItem="q3K-Mc-BAX" secondAttribute="centerX" id="qL5-FH-DEa"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="q3K-Mc-BAX" secondAttribute="trailing" id="HBI-iX-hJh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="q3K-Mc-BAX" secondAttribute="bottom" id="UwD-VC-6jf"/>
+                <constraint firstItem="q3K-Mc-BAX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pnB-gd-3Tn"/>
+                <constraint firstItem="q3K-Mc-BAX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="swg-BE-5xb"/>
+            </constraints>
+            <point key="canvasLocation" x="59" y="20"/>
+        </view>
+    </objects>
+</document>

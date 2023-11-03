@@ -1,0 +1,18 @@
+{
+  "configurations" : [
+    {
+      "id" : "A172C53F-E63C-4393-B2FC-02CCA4FE90DE",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

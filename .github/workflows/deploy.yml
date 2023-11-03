@@ -1,0 +1,36 @@
+name: deploy-ios-app
+on:
+  push:
+    branches:
+      - 'main'
+jobs:
+  deploy:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.1
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Restore Bundle Cache
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-bundle-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bundle-
+
+      - name: Install Dependencies
+        run: bundle install --path vendor/bundle
+
+      - name: Run Fastlane Tests
+        run: |
+            bundle update
+            bundle exec fastlane test

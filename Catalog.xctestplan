@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "FA1CE546-B488-406F-8271-764426D94D35",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Catalog.xcodeproj",
+      "identifier" : "25F1FBBA28E82CF800BDC993",
+      "name" : "Catalog"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

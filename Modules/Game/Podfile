@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Game' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  workspace 'Game'
+
+  # Pods for Profile
+  pod 'Alamofire'
+  pod 'Kingfisher'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Core', :git => "https://github.com/kevinhardianto6/Core.git", :tag => '1.2.6'
+
+  target 'GameTests' do
+    # Pods for testing
+  end
+
+end

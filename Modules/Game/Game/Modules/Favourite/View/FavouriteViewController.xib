@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavouriteViewController" customModule="Game" customModuleProvider="target">
+            <connections>
+                <outlet property="btnDeleteAll" destination="rNR-Fr-sLu" id="VPL-ey-VRT"/>
+                <outlet property="collectionView" destination="AN3-Il-35f" id="VQN-5r-LXK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kca-6i-yJa">
+                    <rect key="frame" x="0.0" y="48" width="414" height="56"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Favourite Games" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qpz-m8-WjL">
+                            <rect key="frame" x="72" y="15" width="270" height="26.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="favourite_icon" translatesAutoresizingMaskIntoConstraints="NO" id="TLw-B3-Ke1">
+                            <rect key="frame" x="16" y="8" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="FgH-hL-4Xz"/>
+                                <constraint firstAttribute="width" constant="40" id="Ziy-5u-Qhj"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNR-Fr-sLu">
+                            <rect key="frame" x="358" y="8" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="27B-Ob-3bZ"/>
+                                <constraint firstAttribute="height" constant="40" id="p4Q-ol-zep"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal">
+                                <imageReference key="image" image="trash" catalog="system" symbolScale="large"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="2AK-Lq-0N7"/>
+                        <constraint firstItem="Qpz-m8-WjL" firstAttribute="leading" secondItem="TLw-B3-Ke1" secondAttribute="trailing" constant="16" id="9aD-HS-hdd"/>
+                        <constraint firstItem="Qpz-m8-WjL" firstAttribute="centerY" secondItem="Kca-6i-yJa" secondAttribute="centerY" id="JZV-wm-wBv"/>
+                        <constraint firstAttribute="trailing" secondItem="rNR-Fr-sLu" secondAttribute="trailing" constant="16" id="Pbd-iC-x3a"/>
+                        <constraint firstItem="TLw-B3-Ke1" firstAttribute="leading" secondItem="Kca-6i-yJa" secondAttribute="leading" constant="16" id="QBH-W4-1pE"/>
+                        <constraint firstItem="rNR-Fr-sLu" firstAttribute="centerY" secondItem="Kca-6i-yJa" secondAttribute="centerY" id="Rbk-Ry-xyM"/>
+                        <constraint firstItem="TLw-B3-Ke1" firstAttribute="centerY" secondItem="Kca-6i-yJa" secondAttribute="centerY" id="Wc8-bR-1XU"/>
+                        <constraint firstItem="rNR-Fr-sLu" firstAttribute="leading" secondItem="Qpz-m8-WjL" secondAttribute="trailing" constant="16" id="wfL-VM-88J"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AN3-Il-35f" customClass="FittedCollectionView" customModule="Core">
+                    <rect key="frame" x="0.0" y="112" width="414" height="734"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" id="4TP-FU-lGz">
+                        <size key="itemSize" width="350" height="200"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Kca-6i-yJa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="5Gx-4x-vf5"/>
+                <constraint firstItem="AN3-Il-35f" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5n2-NI-5bu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="AN3-Il-35f" secondAttribute="trailing" id="aZw-Id-tdU"/>
+                <constraint firstItem="Kca-6i-yJa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="kp4-ux-wK9"/>
+                <constraint firstItem="AN3-Il-35f" firstAttribute="top" secondItem="Kca-6i-yJa" secondAttribute="bottom" constant="8" id="ljP-Nq-TVc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="AN3-Il-35f" secondAttribute="bottom" constant="16" id="wZy-Iy-L82"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Kca-6i-yJa" secondAttribute="trailing" id="yhj-y2-HLM"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="141"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="favourite_icon" width="256" height="256"/>
+        <image name="trash" catalog="system" width="117" height="128"/>
+    </resources>
+</document>
