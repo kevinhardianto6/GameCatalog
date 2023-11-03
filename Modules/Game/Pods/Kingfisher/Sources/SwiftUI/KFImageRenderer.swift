@@ -37,8 +37,7 @@ struct KFImageRenderer<HoldingView> : View where HoldingView: KFImageHoldingView
     let context: KFImage.Context<HoldingView>
     
     var body: some View {
-        if context.startLoadingBeforeViewAppear && !binder.loadingOrSucceeded && !binder.animating {
-            binder.markLoading()
+        if context.startLoadingBeforeViewAppear && !binder.loadingOrSucceeded {
             DispatchQueue.main.async { binder.start(context: context) }
         }
         

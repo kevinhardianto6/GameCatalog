@@ -9,7 +9,7 @@ target 'Catalog' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
-  pod 'Kingfisher'
+  pod 'Kingfisher', '7.6.1'
   pod 'SwiftLint'
   pod 'Core', :git => "https://github.com/kevinhardianto6/Core.git", :tag => '1.2.6'
 
@@ -29,5 +29,5 @@ target 'Game' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
-  pod 'Kingfisher'
+  pod 'Kingfisher', '7.6.1'
 end
