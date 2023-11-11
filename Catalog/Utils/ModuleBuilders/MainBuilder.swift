@@ -6,9 +6,6 @@
 //
 
 import UIKit
-import Profile
-import Game
-import Core
 
 class MainBuilder {
   class func getView(module: MainModuleEnum) -> UIViewController {
