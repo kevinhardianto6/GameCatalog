@@ -7,6 +7,7 @@
 
 import UIKit
 import RxSwift
+import Core
 
 public class FavouriteCell: UICollectionViewCell {
   @IBOutlet weak var imgBackground: UIImageView!

@@ -6,9 +6,9 @@
 //
 
 import UIKit
-import Profile
 import Game
-import Core
+import Profile
+import Common
 
 class MainTabController: UITabBarController {
   
@@ -28,7 +28,7 @@ class MainTabController: UITabBarController {
     profile.title = "Profile"
     
     self.setViewControllers([home, favourite, profile], animated: false)
-  
+    
     self.tabBar.tintColor = UIColor.white
     self.tabBar.barTintColor = UIColor.black
     self.tabBar.layer.shadowColor = UIColor.white.cgColor
@@ -36,7 +36,7 @@ class MainTabController: UITabBarController {
     self.tabBar.layer.shadowRadius = 20
     self.tabBar.layer.shadowOpacity = 0.3
     
-    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: CoreFontEnum.interSemiBold, size: 16) ?? UIFont.boldSystemFont(ofSize: 16)], for: .normal)
-  
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: CommonFontEnum.interSemiBold, size: 16) ?? UIFont.boldSystemFont(ofSize: 16)], for: .normal)
+    
   }
 }

@@ -8,8 +8,9 @@
 import UIKit
 import Profile
 import Game
+import Core
 
-class MainBuilder: NSObject {
+class MainBuilder {
   class func getView(module: MainModuleEnum) -> UIViewController {
     switch module {
     case .main:

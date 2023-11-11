@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Core
 
 public class HomeRouter {
   func makeDetailView(game: GameDetailModel, screenshots: [Screenshot]) -> UIViewController {

@@ -11,23 +11,33 @@ target 'Catalog' do
   pod 'Alamofire'
   pod 'Kingfisher', '7.6.1'
   pod 'SwiftLint'
-  pod 'Core', :git => "https://github.com/kevinhardianto6/Core.git", :tag => '1.2.6'
+  pod 'Common', :git => "https://github.com/kevinhardianto6/Common.git", :tag => "1.0.2"
 
 
 end
 
 target 'Profile' do
   project './Modules/Profile/Profile'
-  pod 'Core', :git => "https://github.com/kevinhardianto6/Core.git", :tag => '1.2.6'
+  pod 'Common', :git => "https://github.com/kevinhardianto6/Common.git", :tag => "1.0.2"
   pod 'RxSwift'
   pod 'RxCocoa'
 end
 
 target 'Game' do
   project './Modules/Game/Game'
-  pod 'Core', :git => "https://github.com/kevinhardianto6/Core.git", :tag => '1.2.6'
+  pod 'Common', :git => "https://github.com/kevinhardianto6/Common.git", :tag => "1.0.2"
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
   pod 'Kingfisher', '7.6.1'
 end
+
+target 'Core' do
+  project './Modules/Core/Core'
+  pod 'Common', :git => "https://github.com/kevinhardianto6/Common.git", :tag => "1.0.2"
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Alamofire'
+  pod 'Kingfisher', '7.6.1'
+end
+

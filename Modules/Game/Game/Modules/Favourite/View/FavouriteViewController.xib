@@ -61,7 +61,7 @@
                         <constraint firstItem="rNR-Fr-sLu" firstAttribute="leading" secondItem="Qpz-m8-WjL" secondAttribute="trailing" constant="16" id="wfL-VM-88J"/>
                     </constraints>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AN3-Il-35f" customClass="FittedCollectionView" customModule="Core">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="AN3-Il-35f" customClass="FittedCollectionView" customModule="Common">
                     <rect key="frame" x="0.0" y="112" width="414" height="734"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" id="4TP-FU-lGz">

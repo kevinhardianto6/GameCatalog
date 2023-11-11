@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
-  - Core (1.2.5)
+  - Common (1.0.2)
   - Kingfisher (7.6.1)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
@@ -12,7 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
-  - Core (from `https://github.com/kevinhardianto6/Core.git`, tag `1.2.6`)
+  - Common (from `https://github.com/kevinhardianto6/Common.git`, tag `1.0.2`)
   - Kingfisher (= 7.6.1)
   - RxCocoa
   - RxSwift
@@ -28,24 +28,24 @@ SPEC REPOS:
     - SwiftLint
 
 EXTERNAL SOURCES:
-  Core:
-    :git: https://github.com/kevinhardianto6/Core.git
-    :tag: 1.2.6
+  Common:
+    :git: https://github.com/kevinhardianto6/Common.git
+    :tag: 1.0.2
 
 CHECKOUT OPTIONS:
-  Core:
-    :git: https://github.com/kevinhardianto6/Core.git
-    :tag: 1.2.6
+  Common:
+    :git: https://github.com/kevinhardianto6/Common.git
+    :tag: 1.0.2
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
-  Core: a1dfcf66d4e74b70ce2ab70466c641cf6a7628ce
+  Common: f7e7571338552546a9f84a7d5382da9767b7ea56
   Kingfisher: 93a3c6d0d551658a31e19f21747e1d15cb39d525
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SwiftLint: 77f7cb2b9bb81ab4a12fcc86448ba3f11afa50c6
 
-PODFILE CHECKSUM: 48fdacbcf408a7709f27f96a9d09c9f42a83e718
+PODFILE CHECKSUM: 4f301ae313131407225fd7edb54ea26b985e0c0e
 
 COCOAPODS: 1.13.0

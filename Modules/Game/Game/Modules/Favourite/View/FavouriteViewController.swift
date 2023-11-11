@@ -8,8 +8,9 @@
 import UIKit
 import RxSwift
 import Core
+import Common
 
-class FavouriteViewController: BaseViewController {
+public class FavouriteViewController: BaseViewController {
   
   public var favouriteViewModel: FavouriteViewModel!
   
@@ -22,11 +23,11 @@ class FavouriteViewController: BaseViewController {
   private let disposeBag = DisposeBag()
   
   public init() {
-      super.init(nibName: "FavouriteViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
+    super.init(nibName: "FavouriteViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
   }
   
   required init?(coder: NSCoder) {
-      super.init(nibName: "FavouriteViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
+    super.init(nibName: "FavouriteViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
   }
   
   override public func viewDidLoad() {
@@ -113,7 +114,7 @@ class FavouriteViewController: BaseViewController {
                       height: self.collectionView.bounds.size.height)
     let noDataLabel: UILabel = UILabel(frame: rect)
     noDataLabel.text = "Your Favourite List Is Empty\nPlease Add First !"
-    noDataLabel.font = UIFont(name: CoreFontEnum.interSemiBold, size: 16)
+    noDataLabel.font = UIFont(name: CommonFontEnum.interSemiBold, size: 16)
     noDataLabel.numberOfLines = 0
     noDataLabel.textAlignment = .center
     noDataLabel.textColor = UIColor.white

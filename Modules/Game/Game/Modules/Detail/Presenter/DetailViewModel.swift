@@ -7,6 +7,7 @@
 
 import RxCocoa
 import RxSwift
+import Core
 
 public class DetailViewModel {
   var isFavourite: PublishSubject<Bool> = PublishSubject()

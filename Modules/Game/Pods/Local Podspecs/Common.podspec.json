@@ -1,0 +1,29 @@
+{
+  "name": "Common",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "summary": "Common.framework for modularization chapter",
+  "requires_arc": true,
+  "version": "1.0.2",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kevin Hardianto": "hardiantokevin00@gmail.com"
+  },
+  "homepage": "https://github.com/kevinhardianto6/Common",
+  "source": {
+    "git": "https://github.com/kevinhardianto6/Common.git",
+    "tag": "1.0.2"
+  },
+  "frameworks": "UIKit",
+  "source_files": [
+    "Common",
+    "Common/**/*.{h,m,swift}"
+  ],
+  "resources": "Common/**/*.{png,jpeg,jpg,storyboard,xib,xcassets,otf,ttf}",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

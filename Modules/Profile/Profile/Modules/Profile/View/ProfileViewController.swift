@@ -14,11 +14,8 @@ public class ProfileViewController: BaseViewController {
   public var profileViewModel: ProfileViewModel!
   
   @IBOutlet weak public var imgProfileIcon: UIImageView!
-  
   @IBOutlet weak public var btnEdit: UIButton!
-  
   @IBOutlet weak public var imgPhoto: UIImageView!
-  
   @IBOutlet weak public var labelName: UILabel!
   
   private let disposeBag = DisposeBag()
@@ -28,7 +25,7 @@ public class ProfileViewController: BaseViewController {
   }
   
   required init?(coder: NSCoder) {
-      super.init(nibName: "ProfileViewController", bundle: Bundle(identifier: ProfileBundle.getIdentifier()))
+    super.init(nibName: "ProfileViewController", bundle: Bundle(identifier: ProfileBundle.getIdentifier()))
   }
   
   override public func viewDidLoad() {
@@ -44,15 +41,6 @@ public class ProfileViewController: BaseViewController {
   
   func setupUI() {
     imgPhoto.layer.cornerRadius = imgPhoto.frame.height/2
-    
-//    let frameworkBundle = Bundle(for: ProfileViewController.self)
-//    if let image = UIImage(named: "kevin-photo", in: frameworkBundle, compatibleWith: nil) {
-//      imgPhoto.image = image
-//    }
-//
-//    if let image = UIImage(named: "profile_icon", in: frameworkBundle, compatibleWith: nil) {
-//      imgProfileIcon.image = image
-//    }
   }
   
   func setupBinding() {

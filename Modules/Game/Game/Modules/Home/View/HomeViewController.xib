@@ -98,7 +98,7 @@
                         <constraint firstAttribute="trailing" secondItem="aMe-on-lf5" secondAttribute="trailing" constant="12" id="yy3-3I-UK7"/>
                     </constraints>
                 </view>
-                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7eQ-9t-ogy" customClass="FittedCollectionView" customModule="Core">
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7eQ-9t-ogy" customClass="FittedCollectionView" customModule="Common">
                     <rect key="frame" x="0.0" y="152" width="414" height="710"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="16" minimumInteritemSpacing="16" id="kaP-tp-akL">

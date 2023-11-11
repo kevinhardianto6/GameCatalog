@@ -7,6 +7,7 @@
 
 import RxSwift
 import RxCocoa
+import Core
 
 public class EditProfileViewModel {
   
@@ -16,7 +17,7 @@ public class EditProfileViewModel {
   
   private let profileUseCase: ProfileUseCase
   
-  init(profileUseCase: ProfileUseCase) {
+  public init(profileUseCase: ProfileUseCase) {
     self.profileUseCase = profileUseCase
   }
   

@@ -6,9 +6,9 @@
 //
 
 import UIKit
-import Kingfisher
 import RxSwift
 import Core
+import Common
 
 public class HomeViewController: BaseViewController {
   
@@ -18,18 +18,18 @@ public class HomeViewController: BaseViewController {
   @IBOutlet weak var containerSearch: UIView!
   @IBOutlet weak var textfieldSearch: UITextField!
   @IBOutlet weak var btnClearText: UIButton!
-
+  
   private var games = [GameModel]()
   private var screenshots = [Screenshot]()
   
   private let disposeBag = DisposeBag()
   
   public init() {
-      super.init(nibName: "HomeViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
+    super.init(nibName: "HomeViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
   }
   
   required init?(coder: NSCoder) {
-      super.init(nibName: "HomeViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
+    super.init(nibName: "HomeViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
   }
   
   override public func viewDidLoad() {
@@ -153,7 +153,7 @@ public class HomeViewController: BaseViewController {
                       height: self.collectionView.bounds.size.height)
     let noDataLabel: UILabel = UILabel(frame: rect)
     noDataLabel.text = "Game Not Found !"
-    noDataLabel.font = UIFont(name: CoreFontEnum.interSemiBold, size: 16)
+    noDataLabel.font = UIFont(name: CommonFontEnum.interSemiBold, size: 16)
     noDataLabel.textAlignment = .center
     noDataLabel.textColor = UIColor.white
     noDataLabel.sizeToFit()

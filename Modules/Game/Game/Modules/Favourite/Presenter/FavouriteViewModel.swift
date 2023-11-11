@@ -7,6 +7,7 @@
 
 import RxSwift
 import RxCocoa
+import Core
 
 public class FavouriteViewModel {
   

@@ -13,7 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    FontHelper.loadCoreFont()
+    FontHelper.loadCommonFont()
     
     let navigationController = UINavigationController(rootViewController: MainBuilder.getView(module: .splash))
     

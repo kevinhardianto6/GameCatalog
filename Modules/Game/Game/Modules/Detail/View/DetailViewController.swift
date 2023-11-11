@@ -25,7 +25,7 @@ public class DetailViewController: BaseViewController {
   @IBOutlet weak var labelGamePreview: UILabel!
   @IBOutlet weak var collectionView: UICollectionView!
   @IBOutlet weak var btnFavourite: UIButton!
-
+  
   private var isFavourite: Bool = false
   private var game: GameDetailModel
   private var screenshots = [Screenshot]()
@@ -35,12 +35,12 @@ public class DetailViewController: BaseViewController {
   public init(game: GameDetailModel, screenshots: [Screenshot]) {
     self.game = game
     self.screenshots = screenshots
-
+    
     super.init(nibName: "DetailViewController", bundle: Bundle(identifier: GameBundle.getIdentifier()))
   }
   
   required init?(coder: NSCoder) {
-      fatalError("init(coder:) has not been implemented")
+    fatalError("init(coder:) has not been implemented")
   }
   
   override public func viewDidLoad() {
@@ -102,7 +102,6 @@ public class DetailViewController: BaseViewController {
         } else {
           self.btnFavourite.setImage(UIImage(named: "favourite_remove",in: Bundle(for: DetailViewController.self),compatibleWith: nil), for: .normal)
           self.isFavourite = true
-          
           let gameModel = GameModel(
             id: self.game.id,
             name: self.game.name,

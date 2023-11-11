@@ -15,6 +15,8 @@
 		254A4BD42AF4D57200980FB0 /* Profile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 254A4BD22AF4D57200980FB0 /* Profile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2557B5102ACBB494003B2502 /* MainBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557B50F2ACBB494003B2502 /* MainBuilder.swift */; };
 		2557B5132ACBB4CF003B2502 /* MainModuleEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557B5122ACBB4CF003B2502 /* MainModuleEnum.swift */; };
+		259AFBAB2AFF863600163AD7 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259AFBAA2AFF863600163AD7 /* Core.framework */; };
+		259AFBAC2AFF863600163AD7 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 259AFBAA2AFF863600163AD7 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		25C6DEA02AF49C430086D7C8 /* Imagine-dragon-enemy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 25C6DE9F2AF49C430086D7C8 /* Imagine-dragon-enemy.mp3 */; };
 		25C6DEA32AF4A01F0086D7C8 /* MainBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C6DEA22AF4A01F0086D7C8 /* MainBundle.swift */; };
 		25CF01FD2AD6996900DC8A22 /* CatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25CF01FC2AD6996900DC8A22 /* CatalogTests.swift */; };
@@ -45,6 +47,7 @@
 			files = (
 				254A4BD42AF4D57200980FB0 /* Profile.framework in Embed Frameworks */,
 				25E2B3052AEE88820059FA25 /* Game.framework in Embed Frameworks */,
+				259AFBAC2AFF863600163AD7 /* Core.framework in Embed Frameworks */,
 				25045B392AE92A0A000E2303 /* Pods_Catalog.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -64,6 +67,8 @@
 		25685979296AB2C2006463C4 /* Game.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Game.docc; sourceTree = "<group>"; };
 		2568597A296AB2C2006463C4 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
 		25908B8D2AEE50EF00FF3EAC /* Profile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Profile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		259AFBAA2AFF863600163AD7 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BE51972AFF5169006FDFB1 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25C6DE9F2AF49C430086D7C8 /* Imagine-dragon-enemy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Imagine-dragon-enemy.mp3"; sourceTree = "<group>"; };
 		25C6DEA22AF4A01F0086D7C8 /* MainBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBundle.swift; sourceTree = "<group>"; };
 		25CF01FA2AD6996900DC8A22 /* CatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +104,7 @@
 			files = (
 				254A4BD32AF4D57200980FB0 /* Profile.framework in Frameworks */,
 				25E2B3042AEE88820059FA25 /* Game.framework in Frameworks */,
+				259AFBAB2AFF863600163AD7 /* Core.framework in Frameworks */,
 				25045B382AE92A0A000E2303 /* Pods_Catalog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +272,8 @@
 		D8ABC66DB55DFAE325D58BB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				259AFBAA2AFF863600163AD7 /* Core.framework */,
+				25BE51972AFF5169006FDFB1 /* Common.framework */,
 				254A4BD22AF4D57200980FB0 /* Profile.framework */,
 				25E2B3032AEE88820059FA25 /* Game.framework */,
 				25E2B3002AEE887E0059FA25 /* Profile.framework */,
@@ -562,7 +570,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -616,7 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -641,6 +649,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -669,6 +678,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

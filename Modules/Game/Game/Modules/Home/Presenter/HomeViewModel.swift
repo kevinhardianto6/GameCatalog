@@ -7,6 +7,7 @@
 
 import RxSwift
 import RxCocoa
+import Core
 
 public class HomeViewModel {
   var games: PublishSubject<[GameModel]> = PublishSubject()

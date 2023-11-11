@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Core
 
 class FavouriteRouter {
   func makeDetailView(game: GameDetailModel) -> UIViewController {

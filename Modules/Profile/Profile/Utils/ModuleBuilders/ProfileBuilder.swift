@@ -1,11 +1,12 @@
 //
 //  ProfileBuilder.swift
-//  Catalog
+//  Profile
 //
-//  Created by Kevin Hardianto on 03/10/23.
+//  Created by Kevin Hardianto on 12/11/23.
 //
 
 import UIKit
+import Core
 
 public class ProfileBuilder: NSObject {
   public class func getView(module: ProfileModuleEnum) -> UIViewController {
